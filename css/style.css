@@ -1,0 +1,77 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+
+/* navigation */
+.top-navigation {
+	background-color: #fff;
+}
+
+.top-navigation .container {
+	width: 60rem;
+	height: 4.375rem;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+.top-navigation .links {
+	float: right;
+}
+
+.logo {
+	width: 60px;
+	height: 70px;
+} 
+
+.container {
+	padding: 15px 15px;
+}
+
+.links li {
+	display: inline-block;
+	margin-left: 1.563rem;
+}
+
+.top-navigation .links .active {
+	color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+/*ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	float: left;
+}
+
+a {
+	width: 60px;
+	padding: 20px 0;
+} */

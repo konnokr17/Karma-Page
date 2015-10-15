@@ -113,3 +113,32 @@ button:hover {
 	border-color: #cf3d0e;
 	cursor: pointer;
 }
+
+/* icons */
+.cases {
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+	height: 45.938rem;
+	margin-bottom: 5rem;
+}
+
+.container h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #1d1e21;
+	font-weight: 100;
+	text-align: center;
+	margin-top: 7rem;
+}
+
+.container li {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	color: #1d1e21;
+	font-weight: 100;
+	text-align: center;
+	padding-left: 20px;
+	display: inline-block;
+}

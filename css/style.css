@@ -42,6 +42,8 @@ div {
 
 .container {
 	padding: 15px 15px;
+	margin: 0 auto;
+	width: 60rem;
 }
 
 .links li {
@@ -61,40 +63,53 @@ div {
 
 /* introduction section */
 .introduction {
-	background-image: url('images/first-background copy.jpg');
+	background-image: url('../images/first-background copy.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: auto;
+	height: 45.938rem;
 }
 
 .introduction h1,
 .introduction h3 {
+	font-family: 'Roboto', sans-serif;
 	color: white;
-	font-weight: 200;
+	font-weight: 100;
 	text-align: center;
 }
 
 .introduction h1 {
-	margin-top: 10rem;
+	margin-top: 15rem;
 	font-size: 50px;
 }
 
 .introduction h3 {
-	margin-top: 1rem;
+	margin-top: -20px;
 	font-size: 25px;
 }
 
 /* buttons */
-.buttons {
-	background-color: orange;
-	color: white;
+.big-button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	line-height: 1.33;
+	width: 160px;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 20px;
-	font-size: 20px;
-	padding: auto;
-	width: 150px;
-	text-align: center;
-	display: center;
+	font-size: 17px;
+	color: #ffffff;
+	background-color: #f15a29;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1rem;
+	margin-bottom: 10rem;
+	letter-spacing: 0.03em;
+}
 
+button:hover {
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+	cursor: pointer;
 }
